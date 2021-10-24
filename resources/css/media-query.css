@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  .section-heading,
+  .service-heading,
+  .testimonial-heading,
+  .package-heading,
+  .form-heading {
+    margin-top: 90px;
+  }
+
+  .service-heading {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+.row {
+  padding: 0 2%;
+}
+.about-box {
+  margin-top: 60px;
+}
+.about-box:first-child {
+  padding: 0%;
+  padding-left: 5%;
+}
+
+.about-img {
+  padding-right: 5%;
+}
+.package-box {
+  max-width: 100%;
+}
+.package-heading {
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+  .header-box-text {
+    margin-bottom: 50px;
+  }
+  .about-txt {
+    margin-bottom: 20px;
+  }
+  .section-heading,
+  .services-heading,
+  .testimonial-heading,
+  .package-heading,
+  .form-heading {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* .work-portfolio li {
+    display: block;
+    width: 50%;
+    height: auto;
+    padding: 1% 3%;
+  } */
+  .about-box:first-child {
+    padding: 0 5%;
+    text-align: center;
+  }
+  .work-portfolio li {
+      width: 50%;
+  }
+  .package-box {
+    margin: 5px auto;
+  }
+  .span_1_of_4 {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+  .span_1_of_3 {
+    padding: 0 10%;
+    margin-bottom: 10px;
+  }
+  .contact-label {
+    padding: 0;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+  .footer-nav,
+  .social-links {
+    float: none;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width:357px){
+.main-nav {
+  margin-top: 50px;
+}
+}
